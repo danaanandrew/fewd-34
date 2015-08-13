@@ -1,0 +1,128 @@
+body {
+  font-family: arial;
+  background-image: url(" http://cloud.avandamiri.com/image/3N410e2Q2Z3F/background.png");
+  background-size: auto;
+  background-position: center;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 110px;
+  background-color: #C4C4C4;
+  border-bottom: 1px solid black;
+}
+nav {
+  top: 8px;
+  bottom: 40px;
+  right: 10px;
+  position: absolute;
+
+}
+
+
+li {
+  display: inline;
+  padding-right: 10px;
+
+  }
+
+input[type="button"] {
+    width: 8em;
+    height: 3em;
+    border: black 1px;
+    border-radius: 3px;
+    background: #294CB2;
+    color: white;
+    font-size: 15pt;
+  }
+
+a {
+  color:white;
+  font-size: 15pt;
+  text-decoration:none;
+  padding-right: 10px
+  }
+
+
+
+  main {
+
+
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px  grey;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+
+
+  }
+
+
+  footer {
+    text-align: center;
+    color:grey;
+
+    border-top: 1px solid white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+     h1,
+     p {
+       margin-left: 15px;
+
+     }
+
+
+    div {
+      overflow: auto;
+    }
+    .product1 img {
+
+      float: left;
+      padding: 30px;
+
+    }
+
+    .product2 img {
+      float: left;
+      padding: 20px;
+
+    }
+
+    .product3 img {
+      float: left;
+      padding: 20px;
+    }
+
+    .button {
+      color: blue;
+      font-size: 20px;
+      padding: 5px;
+      border: 1px solid blue;
+      box-sizing: border-box;
+      text-decoration: none;
+      background-color: white;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 3px;
+
+
+    }
+
+    .button-primary {
+
+      background-color: blue;
+      color: white;
+
+    }
