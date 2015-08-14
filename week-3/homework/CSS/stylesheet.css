@@ -94,17 +94,28 @@ a {
 
     }
 
+    .product1 p {
+      margin-top: 30px;
+    }
+
     .product2 img {
       float: left;
-      padding: 20px;
+      padding: 30px;
 
+    }
+
+    .product2 p {
+      margin-top: 30px;
     }
 
     .product3 img {
       float: left;
-      padding: 20px;
+      padding: 30px;
     }
 
+    .product3 p {
+      margin-top: 30px;
+    }
     .button {
       color: blue;
       font-size: 20px;
