@@ -1,0 +1,66 @@
+body {
+  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+  background: url("../images/bkk.jpg");
+  color: #FCF3E6;
+  text-align: center;
+
+
+
+}
+header {
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  background-color: auto;
+
+}
+main {
+  width: 578px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-color: black;
+  border-radius: 15%;
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color: ivory;
+  margin-bottom: 400px;
+
+
+}
+
+main p {
+  color: black;
+  font-weight: bold;
+}
+
+}
+footer {
+  width: 578px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+
+}
+img {
+  float: right;
+  border-radius: 10%;
+  height: 260;
+  border: 2px line #FCF3E6;
+  width: 140;
+  border-style: outset;
+  border-color: black;
+}
+h1 {
+  margin-top: 50px;
+  font-size: 100px;
+  color: inherit;
+    
+
+
+}
