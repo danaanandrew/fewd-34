@@ -1,8 +1,9 @@
 body {
   font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
   background: url("../images/miasma.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment:scroll;
   color: white;
   text-align: right;
 
@@ -43,7 +44,7 @@ main p {
 
 }
 footer {
-    margin-right: 0%;
+    
 
 
 
@@ -63,7 +64,6 @@ img {
 }
 h1 {
   margin-top: 50px;
-
   font-size: 100px;
   color: inherit;
 
