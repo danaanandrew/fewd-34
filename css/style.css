@@ -3,29 +3,39 @@ body {
   background: url("../images/miasma.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment:scroll;
+
   color: white;
-  text-align: right;
+  text-align: left;
+  overflow: auto;
 
 
 
 
 }
 header {
-  width: 900px;
+  width: 800px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
-
+  margin-right: 10%;
   overflow: auto;
   background-color: auto;
 
 }
+
 main {
 
+  width: 600px;
+  margin-left: auto;
+  margin-right: 12%;
+  margin-top: 100px;  
+
+}
+.homework {
+  height: 50%;
   width: 578px;
   margin-left: auto;
-  margin-right: 2%;
+  margin-right: 12%;
   border-style: inset;
   border-color: black;
   border-radius: 15%;
@@ -35,6 +45,21 @@ main {
   margin-bottom: 400px;
 
 
+
+}
+
+.about {
+  height: 50%;
+  width: 578px;
+  margin-left: auto;
+  margin-right: 12%;
+  border-style: inset;
+  border-color: black;
+  border-radius: 15%;
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color: ivory;
+
 }
 
 main p {
@@ -42,15 +67,9 @@ main p {
   font-weight: bold;
 }
 
-}
-footer {
-    
 
 
 
-
-
-}
 img {
   float: right;
   border-radius: 10%;
@@ -59,14 +78,19 @@ img {
   width: 140;
   border-style: outset;
   border-color: black;
-  margin-left: 100px;
+  margin-left: 7%;
   margin-right: 5%;
 }
 h1 {
   margin-top: 50px;
   font-size: 100px;
   color: inherit;
-
-
-
+  text-align: right;
 }
+
+footer {
+
+    width: 20px;
+
+    color: white;
+  }
