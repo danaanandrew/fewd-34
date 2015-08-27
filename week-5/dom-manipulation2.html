@@ -60,9 +60,24 @@ body { font-family: sans-serif; }
 
   <div id="image">
   </div>
-
+<img src="" alt="" />
   <script>
 
+function addImage() {
+  var url = prompt("What's the URL of the image you would like to add?");
+  var width = prompt("What's the width of the image?");
+  var height = prompt("What's the height of the image?");
+
+  var divImage = document.querySelector("#image");
+  var img1 = document.createElement("img");
+
+
+  img1.setAttribute("src" , url);
+  img1.setAttribute("width" , width);
+  img1.setAttribute("height" , height);
+
+  divImage.appendChild(img1);
+}
 
   // When the button is clicked:                      --> already wired up on line 51
   //  1. prompt for url (& assign result to var)      --> var url = prompt("What's the URL?")
@@ -75,7 +90,7 @@ body { font-family: sans-serif; }
   //  8. append img to element identified as #image
   //     8.1. assign element with selector "#image" to var
   //     8.2. append img to that element
-  }
+
   </script>
 </div>
 
@@ -94,6 +109,11 @@ body { font-family: sans-serif; }
 
   <script>
   function makeBold() {
+    var p = document.querySelector("#make-me-bold");
+    var b = document.querySelector("button");
+    b.addEventListener ("click" , makeBold);
+    p.classList.toggle ("bold");
+
     // When the button is clicked:                                --> already wired up on line 84
     //  1. assign element with selector "#make-me-bold" to a var
     //  2. set the element's class attribute to "bold"
