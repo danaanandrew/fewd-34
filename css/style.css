@@ -14,7 +14,7 @@ body {
 }
 header {
   width: 800px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: 10%;
@@ -28,7 +28,7 @@ main {
   width: 600px;
   margin-left: auto;
   margin-right: 12%;
-  margin-top: 100px;  
+  margin-top: 100px;
 
 }
 .homework {
@@ -38,8 +38,8 @@ main {
   margin-right: 12%;
   border-style: inset;
   border-color: black;
-  border-radius: 15%;
-  padding: 30px;
+  border-radius: 20px;
+  padding: 10px;
   margin-bottom: 50px;
   background-color: ivory;
   margin-bottom: 400px;
@@ -55,8 +55,8 @@ main {
   margin-right: 12%;
   border-style: inset;
   border-color: black;
-  border-radius: 15%;
-  padding: 30px;
+  border-radius: 20px;
+  padding: 10px;
   margin-bottom: 50px;
   background-color: ivory;
 
@@ -72,7 +72,7 @@ main p {
 
 img {
   float: right;
-  border-radius: 10%;
+  border-radius: 20px;
   height: 260;
   border: 2px line #FCF3E6;
   width: 140;

@@ -38,7 +38,7 @@ body { font-family: sans-serif; }
     var list = document.querySelector("#todo-list");
   // create an item variable which, within the the document creates an element specific to "li"
     var item = document.createElement("li");
-  //
+  //assign text content of the item(whatever is inside the new li) which weve called to the text entered by the user in the first step
     item.textContent = text;
 
     list.appendChild(item);
@@ -62,21 +62,7 @@ body { font-family: sans-serif; }
   </div>
 
   <script>
-  function addImage() {
-    var url = prompt("Please Enter A URL For Your Image");
-    var width = prompt("What is the Width of your Image?");
-    var height = prompt("What is the Height of your Image?");
-    var picture  = document.querySelector("#image");
-    var img = document.createElement('img');
 
-
-
-    img.setAttribute(url,);
-    img.setAttribute(width);
-    img.setAttribute(height);
-    picture.imageContent = url;
-
-    picture.appendChild(image);
 
   // When the button is clicked:                      --> already wired up on line 51
   //  1. prompt for url (& assign result to var)      --> var url = prompt("What's the URL?")
