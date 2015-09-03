@@ -34,10 +34,13 @@ body { font-family: sans-serif; }
 
   // create a text variable which prompts a pop up screen that asks what do you need to do today? text inside of the the perentheses needs to be in quotations
     var text = prompt("What do you need to do today?");
+
   // create a list variable which targets inside the document using query selector #todo-list
     var list = document.querySelector("#todo-list");
+
   // create an item variable which, within the the document creates an element specific to "li"
     var item = document.createElement("li");
+
   //assign text content of the item(whatever is inside the new li) which weve called to the text entered by the user in the first step
     item.textContent = text;
 
@@ -110,11 +113,21 @@ function addImage() {
   <script>
   function makeBold() {
     var p = document.querySelector("#make-me-bold");
-    p.classList.toggle ("bold");
-  };
-  function toggleBold(){
-    p.classList.toggle(".bold");
-  };
+
+    p.style.fontWeight="bold";
+    };
+    //or
+    //function makeBold(){
+    //var p = document.querySelector("#make-me-bold")
+    //p.classList.toggle("bold");
+  //}
+  //or
+  //document.querySelector("make-me-bold").classList.toggle("bold")
+
+
+
+
+
 
 
     // When the button is clicked:                                --> already wired up on line 84
@@ -122,6 +135,6 @@ function addImage() {
     //  2. set the element's class attribute to "bold"
     //  - or -
     //  2. add the class "bold" using the element's classList
-  
+
   </script>
 </div>
