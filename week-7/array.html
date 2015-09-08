@@ -1,0 +1,16 @@
+<html>
+<ul>
+
+</ul>
+</html>
+<script>
+var breweries = ["deschutes", "ninkasi", "hop valley"]
+function createBrewery(brewery){
+  var x = document.querySelector("ul")
+  var y = document.createElement("li")
+
+  y.textContent=brewery
+  x.appendChild(y)
+}
+breweries.forEach(createBrewery)
+</script>
