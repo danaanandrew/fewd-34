@@ -38,16 +38,20 @@ header {
 }
 #header-column-3 {
 
+
 }
 
 main {
   width: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px white;
 }
 
 .footer {
-  position: fixed;
+
   max-width: 30%;
-  margin-left:90%;
+  margin-left:auto;
+  margin-right: auto;
   font-size: 15px;
   text-align: center;
   color: white;
@@ -89,7 +93,7 @@ a {
       text-align: left;
       width: 132px;
       max-width: 20%;
-      margin-left:90%;
+      margin-left:85%;
       margin-right: 5%;
       margin-top:35px;
 
