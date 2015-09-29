@@ -21,30 +21,43 @@ body { font-family: sans-serif; }
   </ol>
 
   <script>
-  // 1. prompt for a todo and save the result         --> var text = prompt("What do you need to do today?")
-  // 2. create an li element                          --> document.createElement()
-  // 3. save the ul in a variable                     --> var list = ?
-  // 4. append the li to ul variable                  --> list.appendChild()
-  // 5. set the prompt result to the li's textContent --> item.textContent = ?
+  function addListItem() {
+  //create a variable which prompts what do you want to do today, give it a variable name "text"
+  var text = prompt("what do you need to do today?");
+  //create a variable which selects on the page the ol, which is the area we will display the list
+  var orderedList = document.querySelector("#todo-list");
+  //instead of querySelector, another way to do this is to use document.getElementById
+  //ex. document.getElementById("todo-list")
+
+  //create a variable which creates an li element
+  var listItem = document.createElement("li");
+
+  //make the list items text content equal to the text from the prompt on line 3
+  listItem.textContent = text;
+  //now append the ordered list element with the list item (in perentheses)
+  orderedList.appendChild(listItem);
+
+
+}
 
 
 
   // create a function which adds a list item to the html doculument. functions are followed by parentheses and {}
-  function addListItem() {
+  //function addListItem() {
 
   // create a text variable which prompts a pop up screen that asks what do you need to do today? text inside of the the perentheses needs to be in quotations
-    var text = prompt("What do you need to do today?");
+    //var text = prompt("What do you need to do today?");
 
   // create a list variable which targets inside the document using query selector #todo-list
-    var list = document.querySelector("#todo-list");
+    //var list = document.querySelector("#todo-list");
 
   // create an item variable which, within the the document creates an element specific to "li"
-    var item = document.createElement("li");
+    //var item = document.createElement("li");
 
   //assign text content of the item(whatever is inside the new li) which weve called to the text entered by the user in the first step
-    item.textContent = text;
+    //item.textContent = text;
 
-    list.appendChild(item);
+    //list.appendChild(item);
   }
   </script>
 </div>

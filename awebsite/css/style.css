@@ -79,8 +79,9 @@ a {
       position: absolute;
       text-align: left;
       width: 132px;
+      max-width: 20%;
       margin-left:90%;
-      margin-right: 35px;
+      margin-right: 5%;
       margin-top:35px;
 
 

@@ -68,8 +68,25 @@
         image: "http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX214_AL_.jpg"
       }
     ];
+    //given an array of movies
+    //1) WHEN the button is clicked |addEventListener|
+    //2)Do a loop/loop through each movie
+    //2a) |forEach|
+    //3a) grab movie title
+    //3b)grab movie release Year
+    //3c)grab movie img
 
     // Your code goes here.
+    function displayMovie(movie) {
+      //get the list and append a new list item to it
+      var list = document.querySelector("#movies");
+      var item = document.createElement("li");
+      list.appendChild(item);
+      //create the title element and append it to the li
+      var title = document.createElement("div");
+      title.textContent = movie.title;
+      item.appendChild(title)
+    }
     </script>
   </body>
 </html>

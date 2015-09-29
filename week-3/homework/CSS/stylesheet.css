@@ -29,7 +29,7 @@ li {
 
   }
 
-input[type="button"] {
+.signupbotton {
     width: 8em;
     height: 3em;
     border: black 1px;

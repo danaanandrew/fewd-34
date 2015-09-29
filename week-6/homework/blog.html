@@ -111,7 +111,31 @@
     //5. parse as an integer (parseint)
     //6 increment number by 1
     //7. insert the number back into the span (appendchild?)
+    var likebutton = document.querySelector (".like-link");
 
+      likebutton.addEventListener ("click", liked);
+
+      function liked(event) {
+        event.preventDefault();
+        var likeCount = document.querySelector (".like-count");
+        var likeInt = parseInt(likeCount.textContent)+1;
+        likeCount.textContent = likeInt;
+        }
+
+
+        var parentDiv = document.querySelector("#comments");
+              var newCommentBody = document.querySelector("#new-comment-body");
+              var commentForm = document.querySelector("#new-comment");
+
+              commentForm.addEventListener("submit",submitComment);
+
+              function submitComment(event) {
+                event.preventDefault();
+                var newDiv = document.createElement("div");
+                newDiv.setAttribute("class","comment");
+                newDiv.textContent = newCommentBody.value;
+                parentDiv.appendChild(newDiv);
+                newCommentBody.value = "";
     </script>
   </body>
 </html>
