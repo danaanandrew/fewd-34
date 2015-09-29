@@ -23,20 +23,21 @@ header {
 .header-image {
   height: 100px;
   width: 80px;
-  position: absolute;
 }
 
 
-
-.header-text {
+#header-column-1 {
+  width:25%;
+  float:left;
+}
+#header-column-2 {
   text-align: center;
   color: white;
-  max-width: 15%;
-  position: absolute;
-  margin-left: 45%;
-  display: inline-block;
-
-
+  width:50%;
+  float:left;
+}
+#header-column-3 {
+  width:25%;
 }
 
 main {
