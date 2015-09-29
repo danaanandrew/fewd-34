@@ -7,12 +7,12 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-color: black;
-  position: relative;
+
 
 }
 
 header {
-  position: relative;
+
   background-color: black;
   border-bottom: solid white 1px;
   height: 100px;
@@ -37,7 +37,7 @@ header {
   float:left;
 }
 #header-column-3 {
-  width:25%;
+
 }
 
 main {
@@ -65,10 +65,7 @@ p {
   font-size: 15px;
 }
 
-.background-image {
-  max-width: 95%;
-  max-height: 95%;
-}
+
 
 #imgRand {
   display: block;
@@ -142,6 +139,7 @@ a {
       top: 0;
       border: none;
       padding: 0;
+
       margin: 0 0 0 1px;
       background: transparent;
       text-indent: -10px;
