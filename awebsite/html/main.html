@@ -52,17 +52,28 @@
   var totalCount = 13;
 
   function setImg(){
-  // random number between 1 and 100
+
   var num = Math.floor(Math.random()* totalCount);
-  document.getElementById("imgRand").src = "../images/home-page-images/"+num+".jpg";}
+  document.getElementById("imgRand").src = "../images/home-page-images/"+num+".jpg";
+
+}
 
 
   // call it the first time
   setImg();
 
   // set an interval to change it every 30 seconds
-  window.setInterval("setImg()",10000);
-</script>
-ChangeIt();
+  window.setInterval("setImg()",5000);
+
+  jQuery(function(){
+
+   // Fade In
+   $("#imgRand").fadeIn("slow");
+
+   // Fade Out
+   $("#imgRand").fadeOut("slow");
+
+});
+
 </script>
 </html>

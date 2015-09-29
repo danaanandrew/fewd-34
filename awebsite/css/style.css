@@ -40,8 +40,9 @@ header {
 
 }
 
-main {
-  width: auto;
+.background-image {
+  margin: auto;
+  width: 80%;
 }
 
 .footer {
