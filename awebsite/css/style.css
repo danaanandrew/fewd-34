@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Amatic SC', cursive;
   -webkit-background-size: cover;
@@ -40,9 +39,8 @@ header {
 
 }
 
-.background-image {
-  margin: auto;
-  width: 80%;
+main {
+  width: auto;
 }
 
 .footer {
@@ -69,6 +67,12 @@ p {
 .background-image {
   max-width: 95%;
   max-height: 95%;
+}
+
+#imgRand {
+  display: block;
+  margin: 0 auto;
+  max-width:100%;
 }
 
 /* Dropdown menu */
