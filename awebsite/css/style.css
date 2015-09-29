@@ -29,34 +29,47 @@ header {
 #header-column-1 {
   width:25%;
   float:left;
+
 }
 #header-column-2 {
   text-align: center;
   color: white;
   width:50%;
   float:left;
+
 }
+
 #header-column-3 {
 
 
 }
 
-main {
-  width: auto;
-  padding-bottom: 50px;
-  border-bottom: 1px white;
+.background-image {
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+
 }
 
-.footer {
+hr {
+  margin-bottom: 0;
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid white 1px;
 
-  max-width: 30%;
+}
+.footer {
+  border-top: solid grey 1px;
+
+  max-width: 20%;
   margin-left:auto;
   margin-right: auto;
   font-size: 15px;
   text-align: center;
   color: white;
-  right: 0px;
-  bottom: 0px;
+  padding-top: 20px;
+  margin-top: 0;
 }
 
 h1 {
@@ -69,6 +82,9 @@ p {
   font-size: 15px;
 }
 
+main {
+  border-top: 1px solid grey;
+}
 
 
 #imgRand {
