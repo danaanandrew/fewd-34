@@ -70,6 +70,12 @@ p {
   max-height: 95%;
 }
 
+#imgRand {
+  display: block;
+  margin: 0 auto;
+  max-width:100%;
+}
+
 /* Dropdown menu */
 
 
