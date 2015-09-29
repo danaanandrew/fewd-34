@@ -35,7 +35,9 @@
 
     </header>
     <main>
-
+      <div class="background-image">
+        <img id="imgRand" src="" alt="backgroundimages" />
+      </div>
 
 
 
@@ -45,14 +47,22 @@
     </footer>
 
   </body>
-  <script type="text/javascript">
+
+  <script language="javascript">
   var totalCount = 13;
-  function ChangeIt()
-  {
-    var num = Math.ceil( Math.random() * totalCount );
-    document.body.background = '../images/home-page-images/'+num+'.jpg';
-    document.body.style.backgroundCover = "cover";// Background cover
-  }
+
+  function setImg(){
+  // random number between 1 and 100
+  var num = Math.floor(Math.random()* totalCount);
+  document.getElementById("imgRand").src = "../images/home-page-images/"+num+".jpg";}
+
+
+  // call it the first time
+  setImg();
+
+  // set an interval to change it every 30 seconds
+  window.setInterval("setImg()",10000);
+</script>
 ChangeIt();
 </script>
 </html>

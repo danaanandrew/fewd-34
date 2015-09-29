@@ -9,11 +9,12 @@ body {
   background-repeat: no-repeat;
   background-color: black;
   position: relative;
+
 }
 
 header {
   position: relative;
-  /*background-color: black;*/
+  background-color: black;
   border-bottom: solid white 1px;
   height: 100px;
 }
@@ -40,7 +41,7 @@ header {
 }
 
 main {
-  height: 80%;
+  width: auto;
 }
 
 .footer {
@@ -62,6 +63,11 @@ h1 {
 
 p {
   font-size: 15px;
+}
+
+.background-image {
+  max-width: 95%;
+  max-height: 95%;
 }
 
 /* Dropdown menu */
