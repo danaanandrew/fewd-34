@@ -3,8 +3,6 @@
   <head>
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shy Gangsta Design</title>
     <link rel="stylesheet" href="../css/style.css" media="screen" />
 
@@ -12,17 +10,13 @@
 </head>
   <body>
     <header>
-      <div id="header-column-1">
-        <a href="main.html"><img src="../images/logo.png" alt="logo" class="header-image" /></a>
-      </div>
-      <div id="header-column-2">
-        <h1>shy gangsta design.</h1>
-      </div>
-      <div id="header-column-3" class="dropdown">
-          <input class="dropdown-toggle" type="text">
-          <div class="dropdown-text">Works</div>
-          <ul class="dropdown-content">
-            <li><a href="#" target="_blank">Film Photography</a></li>
+      <a href="main.html"><img src="../images/logo.png" alt="logo" /></a>
+      <h1 class="header-text">shy gangsta design.</h1>
+    <nav>
+      <div class="dropdown">
+        <button>Works</button>
+          <ul class="dropdown-menu">
+            <li><a href="filmphotography.html">Film Photography</a></li>
             <li><a href="#"target="_blank">Digital Photography</a></li>
             <li><a href="#"target="_blank">Silk Screen</a></li>
             <li><a href="#"target="_blank">T-shirt Design</a></li>
@@ -30,19 +24,15 @@
             <li><a href="#"target="_blank">Mixed Media</a></li>
             <li><a href="#"target="_blank">About</a></li>
           </ul>
-        </div>
-
+        </div
+    </nav>
     </header>
-    <main>
+  <main>
       <div class="background-image">
         <img id="imgRand" src="" alt="backgroundimages" />
       </div>
-
-
-
-        <hr>
-
-    </main>
+      <hr>
+  </main>
     <footer>
       <p class="footer"> Copyright 2015 <br>Website Created By Danaan Andrew</p>
     </footer>
@@ -50,14 +40,11 @@
   </body>
 
   <script language="javascript">
-  var totalCount = 13;
-  function setImg(){
-  // random number between 1 and 100
-  var num = Math.floor(Math.random()* totalCount);
-  document.getElementById("imgRand").src = "../images/home-page-images/"+num+".jpg";}
-  // call it the first time
-  setImg();
-  // set an interval to change it every 30 seconds
-  window.setInterval("setImg()",10000);
-</script>
+    var totalCount = 13;
+    function setImg(){
+    var num = Math.floor(Math.random()* totalCount);
+    document.getElementById("imgRand").src = "../images/home-page-images/"+num+".jpg";}
+    setImg();
+    window.setInterval("setImg()",10000);
+  </script>
 </html>
