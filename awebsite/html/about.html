@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="../css/footer.css" media="screen" />
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon/favicon.ico">
 
+
 </head>
   <body>
     <header>
       <a href="main.html"><img src="../images/logo.png" alt="logo" /></a>
-      <h1 class="header-text">shy gangsta design.</h1>
+      <h1 class="header-text">About</h1>
     <nav>
       <div class="dropdown">
         <button>Works</button>
@@ -30,23 +31,23 @@
     </nav>
     </header>
   <main>
-      <div class="background-image">
-        <img id="imgRand" src="" alt="backgroundimages" />
-      </div>
-      <hr>
+    <div class="center">
+    <img src="../images/about/selfportrait.jpg" alt="self portrait" class="self-potrait" />
+    <div class="main-text">
+      <p>
+        Shy Gangsta is a American west coast artist, writer and photographer working in the mediums of digital and film photography, printmaking, watercolor and digital media. Constantly moving, always inspired, the guy who holds a beer and stands in the corner of the room at a party, shy but still a G at heart. Shy Gangsta is available for photography, writing and art commissions on request.
+      </p>
+      <h2>-shy gangsta</h2>
+      <div class="links"
+      <p><a href="https://www.facebook.com/ShyGangsta" class="link1">Facebook</a></p>
+
+      <p><a href="mailto:danaan.andrew@gmail.com"class="link2">Email</a></p>
+    </div>
+    </div>
+    </div>
+    <hr>
   </main>
     <footer>
       <p class="footer"> Copyright 2015 <br>Website Created By Danaan Andrew</p>
     </footer>
-
   </body>
-
-  <script language="javascript">
-    var totalCount = 13;
-    function setImg(){
-    var num = Math.floor(Math.random()* totalCount);
-    document.getElementById("imgRand").src = "../images/home-page-images/"+num+".jpg";}
-    setImg();
-    window.setInterval("setImg()",10000);
-  </script>
-</html>

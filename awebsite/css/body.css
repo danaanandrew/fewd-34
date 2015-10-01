@@ -8,10 +8,76 @@ body {
 main {
   border-top: 1px solid grey;
 }
+.center {
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 100px;
+  margin-top: 50px;
+
+}
+.self-potrait {
+
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: 37%;
+  border: 2px solid white;
+  border-radius: 3%;
+  color: white;
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.main-text {
+  max-width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border: 1px solid white;
+
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 1%;
+  font-size: 45px;
+
+}
+p {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .background-image {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.links {
+  margin-left: 45%;
+  margin-bottom: 10%;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+
+
+
+
+
 }
 
 hr {
